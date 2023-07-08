@@ -1,0 +1,9 @@
+/* There are 3 ways to add CSS
+1) External CSS
+2) Internal CSS
+3) Inline CSS */
+
+
+p{
+    color:red;
+}

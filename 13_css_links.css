@@ -1,0 +1,29 @@
+a{
+/* 
+    link ki 4 stage
+    link
+    visited
+    hover
+    active */
+
+    text-decoration: none;
+}
+
+/* link aur active hover ke upar hoga and 
+active humesha neeche rahe ga  */
+
+a:link{
+    color: yellowgreen;
+}
+
+a:visited{
+color: black;
+}
+
+a:hover{
+color: orange;
+}
+
+a:active{
+ color: red;   
+}

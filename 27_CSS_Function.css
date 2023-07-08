@@ -1,0 +1,31 @@
+/* Some functions are  */
+/* rgb() */
+/* url() */
+/* linear-gradient() etc */
+
+/* ek bar upar define kardo 
+var() se call karlo */
+
+/* ek bar root mai change karo sab jagh change ho zaega  */
+:root{
+
+    --primary-color: red;
+    --btn-color: blueviolet;
+    --text-color: white;
+
+}
+#fun{
+    background-color: var(--primary-color);
+    height: 200px;
+
+    /* ye 200px fix kar dega  jo window ka size chnage karne pe bhi change nhi hoga  */
+    width: calc(100% - 200px)
+}
+a{
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: var(--btn-color) ;
+    color: var(--text-color);
+    text-decoration: none;
+}
+

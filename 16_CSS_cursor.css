@@ -1,0 +1,21 @@
+div{
+    border: 1px solid red;
+    
+    /* normal cursol ki funality dikahega */
+    /* cursor: auto; */
+
+    /* it will make cross arrow cursor when we move cursor inside div  */
+    /* cursor: all-scroll; */
+
+    /* it will amke + sign  */
+    /* cursor: cell; */
+
+    /* it will create resize cursor  */
+    /* cursor: col-resize; */
+
+    /* it will create a drag and drop cursor; */
+    /* cursor: grab; */
+
+    /* it will create a progress with arrow */
+    cursor: progress;
+}

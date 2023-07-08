@@ -1,0 +1,47 @@
+ul{
+
+    /* list mai jo bullet point hote unko kaisa change karna h  */
+    
+    /* kuch bhi nhi rahe ga  */
+    /* list-style-type: none; */
+
+    /* circle banzaega bullet ki zagh  */
+    /* list-style-type: circle; */
+    
+    /* square banzaega bullet ki zagh  */
+    /* list-style: square; */
+
+    /* we can put image instaed of bullet */
+    list-style-image: url("25_OIP.jpg");
+
+    /* ye border ke andar aa jaega  */
+    list-style-position: inside;
+}
+
+ol{
+
+    /*Ordered list mai jo numbering hote unko kaisa change karna h  */
+
+    /* Number to small alphabets numbering */
+    /* list-style: lower-alpha; */
+
+    /* Number to capital alphabets numbering */
+    /* list-style: upper-alpha; */
+
+     /* Number to small roman numbering */
+     /* list-style: lower-roman; */
+
+     /* Number to capital roman numbering */
+     /* list-style: upper-roman; */
+
+     /* list-style-position: inside; */
+
+
+}
+
+/* by applying border in li we can see image that we apply above
+is outside the border */
+
+li{
+    border: 1px solid black;
+}

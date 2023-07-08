@@ -1,0 +1,73 @@
+p{
+    /* border: 1px solid red; */
+    overflow: auto;
+}
+
+img{
+    width: 100px;
+    height:auto ;
+    padding: 10px;
+}
+
+/* float se kisi bhi cheez ko left ya right move karate h  */
+#img1{
+
+    float: right;
+}
+
+#img2{
+    float: right;
+
+    /* iska matlab ki ap kisi float wale element ke right mai nhi reh sakte */
+    /* clear: right; */
+
+        /* iska matlab ki ap kisi float wale element ke right mai nhi reh sakte aur nahi left mai */
+    clear: both;
+}
+
+ul{
+    background-color: green;
+    list-style-type: none;
+    /* border: 1px solid red; */
+    overflow: auto;
+}
+li{
+    color: white;
+    padding: 10px 15px;
+
+    /* float karne sab kuch gayab ho zega
+    aisa iss wajh se ho raha woh ul(matlab apne container) se bahar aa ja rha hai
+    
+    is error ko solve karne ke liye container mai overflow auto kardo 
+    */
+    float: left;
+}
+
+
+#content{
+width: 70%;
+background-color: green;
+height: 200px;
+
+float: left;
+}
+
+#sidebar{
+    width: 30%;
+    background-color: indianred;
+    /* height: 200px; */
+
+    /* jab hum iski height 150px karenge 
+    waise hi fotter uske nneche aa jaega ku ki uisme float laga h
+    aur as new line use treat kare ga toh usse bachne ke liye hum
+    clear both use kar sakte h footer ke liye*/
+    height: 150px;
+    
+    float: left;
+}
+
+#footer{
+    background-color: yellowgreen;
+
+    clear: both;
+}

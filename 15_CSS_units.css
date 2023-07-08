@@ -1,0 +1,62 @@
+html{
+    font-size: 14px;
+}
+
+#parent{
+    
+    border: 1px solid red;
+    width: 800px;
+    
+    /* Absolute Units  */
+    /* width: 10cm; */
+    /* width: 100mm; */ 
+    /* width: 5in;  */     /* inch */
+    /* width: 500px; */
+    /* width: 500pt; */
+    /* width: 500pc; */
+
+
+    /* Relative units  */
+    /* jab hum browser ko ka widh ya height kam kargenge toh uske */
+    /* according height width change hogi vh aur vw ki wajh se 
+    aur hum yeh bhi keh sakte h ki responsive ho gai h */
+    
+    /* it will take 50% of view port height */
+    /* height: 50vh; */
+
+    /* it will take 50% of view port width */
+    /* width:  50vw; */
+
+    /* font-size: 30px; */
+
+    /* rem apna font size html ke font size 
+    ke respect mai change karta h */
+    /* font-size: 4rem; */
+
+    /* font size ko fresponsive karne ke liye vw ka use karo */
+    font-size: 10vw;
+
+
+}
+
+#child{
+    
+    /* border: 1px solid blue; */
+    
+    /* Relative unit */
+   
+    /* parent ke border ka 50 % ho zega
+    width: 50%; */
+
+    
+    /* em apna font size parent  ke font size 
+    ke respect mai change karta h */
+    /* ye 50% font kar dega size mai parent ke 
+    font size ko refrence man ke  */
+    /* font-size: 0.5em; */
+    
+    
+    /* rem apna font size html ke font size 
+    ke respect mai change karta h */
+    font-size: 2rem;
+}

@@ -1,0 +1,28 @@
+#overflow{
+    background-color: whitesmoke;
+    border:  1px solid red;
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 50px;
+
+    /* isko resizable banane ke liye  */
+    /* both matlab horizontal vertical both  */
+    /* resize: both ; */
+
+    /* keval horizontal ke liye  */
+    /* resize: horizontal; */
+    
+    /* keval vertical ke liye  */
+    /* resize: vertical; */
+
+    /* resize karne ke live overflow: visble; use mat karna */
+}
+
+/* textarea ke sath usko resize ki property sath aati h  */
+
+textarea{
+
+    /* textarea ab reziable nhi rahega */
+    resize: none;
+}

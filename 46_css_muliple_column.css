@@ -1,0 +1,25 @@
+div{
+    
+    /* column create kkr deta h  */
+    column-count: 3;
+
+    /* column ke beech gap  */
+    column-gap: 50px;
+
+    /* column ke beech style  */
+    /* column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: red; */
+
+    /* upar wale ka shot syantx */
+    column-rule: 1px solid red;
+
+    /* column dekhe ke liye webpage ki width set karna ho to ye kare  */
+    column-width: 300px;
+
+}
+
+h1{
+    /* heading ko column mai na lane ke liye  */
+    column-span: all;
+}

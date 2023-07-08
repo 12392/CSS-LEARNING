@@ -1,0 +1,36 @@
+<!-- Note priority of appliying css in HTML 
+
+INLINE > INTERNAL, EXTERNAL (it will decide on the basis that which is wriiten last) -->
+
+<!-- Below Internal is wriiten last so it is applied  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- External CSS  -->
+    <link rel="stylesheet" type="text/css" href="3_add_CSS.css" />
+
+    <!-- Internal CSS  -->
+    <style>
+      p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>paragraph 1</p>
+    <hr />
+
+    <!-- Inline CSS  -->
+    <p style="color: green; font-size: 18px">paragraph 2</p>
+    <hr />
+
+    <p>paragraph 3</p>
+    <hr />
+  </body>
+</html>

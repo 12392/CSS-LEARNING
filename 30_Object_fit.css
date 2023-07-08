@@ -1,0 +1,20 @@
+img{
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+
+    /* puri image ko shi se dikhane ke chakkr mai 
+    border ke pass space aa gaya */
+    /* object-fit: contain; */
+
+    /* puri image ka aspect ratio bigad gaya  */
+    /* object-fit: fill; */
+/* 
+    Na hi ye extra blank space ane deta h nahi image 
+    ka aspect ratio kharab karta ye image ko cut kr deta hai 
+    image pura nhi aata */
+    object-fit: cover;
+
+    /* image ko position karne ke liye  */
+    object-position: top center;
+}

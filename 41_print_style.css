@@ -1,0 +1,18 @@
+/* ctrl + P pe kaise print ho webpage uske liye css */
+
+@media screen{
+    p{
+        font-size: 20px;
+    }
+}
+
+@media print{
+    p{
+        font-size: 30px;
+    }
+
+    /* ctrl + p pr image nhi aaega aur fony size badh zaega */
+    img{
+        display: none;
+    }
+}

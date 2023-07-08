@@ -1,0 +1,12 @@
+/* Refer video  */
+
+#sprite{
+/* Total 9 flag ki inmages thi toh humko image mai ek flag use karna h
+toh hum uske pixel ke through use kar sakete  */
+
+    height: 250px;
+    background-image: url("21_img.jpg");
+    background-repeat: no-repeat;
+    /* background-position: 8px -250px; */
+    background-position: 8px -500px;
+}

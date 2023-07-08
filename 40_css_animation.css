@@ -1,0 +1,63 @@
+/* animation dalne ke liye */
+@keyframes changecolor{
+    /* from {
+        background-color: red;
+    }
+
+    to{
+        background-color: yellow;
+    } */
+
+    /* we can also define above like below */
+    0% {
+        background-color: red;
+    }
+    25%{
+        background-color: teal;
+        width: 300px;
+    }
+    50%{
+        background-color: bisque;
+    }
+    75%{
+        background-color: aqua;
+        width: 200px;
+    }
+    100%{
+        background-color: yellow;
+    }
+
+}
+
+
+#animate{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    /* animation-delay: 1s; */
+
+    /* bar bar animation kare to ye use karo */
+    animation-iteration-count: infinite;
+}
+
+#animate2{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    /* animation-delay: 1s; */
+
+    /* bar bar animation kare to ye use karo */
+    animation-iteration-count: infinite;
+
+    /* animation ki movement change karne ke liye  */
+    /* animation-direction: reverse; */
+
+    /* jaise transition mai timing function tha smae  */
+    animation-timing-function: ease-in-out;
+}
+
+

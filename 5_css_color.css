@@ -1,0 +1,37 @@
+/* we can define color in css by following ways */
+/* 
+1) Predefined color names
+
+2) RGB 
+   rgb(red_val,geen_val,blue_val)
+   rgb(0,0,0) --> black
+   range(0 to 255)
+
+3) RGBA 
+     rgba(red_val,geen_val,blue_val,alpha)
+     here alpha is transparent
+     0.0 -> fully transparent
+     1.0 -> Not transparent at all
+     rgba(255,99,71,0.5)
+
+     
+4) HEX
+    #rrggbb
+    rr(red),gg(green) and bb (blue)
+    value range(00 to ff)
+    Red-> #ff0000
+
+5) HSL
+    hsl (hue, saturation and lightness)
+    red-> hsl(0, 100%, 50%)
+    hue range(0 to 360)
+    saturation and lightness range (0% to 100%) 
+
+
+
+6) HSLA 
+     hsl (hue, saturation and lightness, alpha)
+    here alpha is transparent
+
+
+*/

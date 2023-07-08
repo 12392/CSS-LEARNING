@@ -1,0 +1,27 @@
+img{
+
+    /* blur karne ke liye */
+    /* filter:blur(10px) */
+
+    /* brighness ke liye  */
+    /* filter: brightness(50%); */
+
+    /* contrast ke liye  */
+    /* filter: contrast(76%); */
+
+    /* box shadow dena  */
+    /* filter: drop-shadow(8px 8px 5px red); */
+
+    /* balck and white karne ke liye  */
+    /* filter: grayscale(76%); */
+
+    /* put color according to color wheel value input in degrre */
+    /* filter: hue-rotate(90deg); */
+    
+    /* invert karne ke liye  */
+    /* filter: invert(90%); */
+
+    /* isme hum ek se zyada effect ek sath laga skate h  */
+
+    filter: brightness(50%) ,contrast(90%); 
+}

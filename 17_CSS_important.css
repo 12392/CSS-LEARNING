@@ -1,0 +1,21 @@
+div{
+    border: 1px solid red !important;
+}
+
+div{
+    border: 1px solid green;
+}
+
+/* As we can see above it will show the border of green color
+due to order */
+
+/* And if we use the inline css then inline will show as inline has
+the highest property */
+
+/* but if we want to use red border and it not comes in priority
+then we can use !important it will make it as a highest priority */
+
+/* if every element you define have important then it follow the same rule 
+of normal priority */
+
+/* use as less as much you can it is not a good practice to use important */

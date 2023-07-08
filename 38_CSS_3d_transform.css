@@ -1,0 +1,36 @@
+/* syntax
+transform : prespective(300px) rotate3d()
+perspective-origin: 50% 50% */
+
+#cover{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    margin:150px;
+}
+
+#content{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+
+    /* 3d rotaion  */
+
+    /* transform: perspective(300px) rotate3d(50,0,0, 20deg); */
+
+    /* transform: perspective(300px) rotate3d(0,50,0, 20deg); */
+
+    /* transform: perspective(300px) rotate3d(0,0,50, 20deg); */
+
+    /* transform: perspective(300px) rotate3d(50,0,50, 20deg); */
+
+
+    /* 3d tranlation  */
+
+    transform: perspective(300px) translate3d(50px,0px,0px);
+}
+/* Synatx
+transform: perspective(300px) rorate3d() 
+
+Refer video*/
+

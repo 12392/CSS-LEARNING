@@ -1,0 +1,35 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px; 
+
+    /* transition aise lage */
+    /* transition-property: width;
+    transition-property: background-color ; */
+    
+    /* Sari transition property ek sath lag sakti h */
+    transition-duration: all;
+
+    /* transition kitni der mai ho zae  */
+    transition-duration: 500ms;
+
+    /* transition lane mai delay lana ho toh ye kare */
+    /* transition-delay: 500ms; */
+/* 
+    isme timing set kar sakye jaise start zaldi ho khatm bad mai ho 
+    start late ya khtm zaldi kuch iss tarh ki ceeze */
+    transition-timing-function: ease ;
+
+
+    /* shortcut write all in one
+    transition: property, duration, timing-function,delay*/
+}
+
+
+/* keval aisa karne se hover pe width toh badh jaegi pr 
+animation acha nhi aata toh usko smooth karne ke liye transition use karte h */
+#div1:hover{
+    width: 200px;
+    background-color: yellow;
+}

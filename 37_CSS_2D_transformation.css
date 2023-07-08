@@ -1,0 +1,54 @@
+#wrapper{
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow ;
+    
+    /* transform: matrix( scalex(), skewY(), scaleY(), translateX(), translateY()); */
+    transform: matrix(1,-0.2,0,1,0,0);
+}
+
+a{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+
+    /* skew karne ke liye  */
+    /* transform: skew(20deg ,10deg); */
+    display: inline-block;
+
+    /* jitne bhi transform function lagae sab center ya orgin ke */
+    /* respect mai change ho rahe the toh usko change karne ke liye  */
+    
+    /* 
+    transform: rotate(20deg);
+    transform-origin: 0% 100%; */
+
+
+    /* a tag ko move karwane ke liye translate: (x-axis,y-axis); 
+    mai kitna move karwana h  aur ye inline mai move nhi hota h usko chnage karna padhta h*/
+    /* transform: translate(50px , 50px);
+    display: inline-block; */
+}
+
+a:hover{
+    display: inline-block;  
+    
+    /* move karne ke liye  */
+    /* transform: translate(50px , 50px);  */
+
+    /* rotate karne ke liye */
+    /* transform: rotate(20deg); */
+
+    /* badhana ya ghatana */
+    /* 1-parmeter = current width * parameter value
+    2-parmeter = current height * parameter value */
+    /* transform: scale(2,3); */
+
+    /* keval width badhana ya ghatana ho  */
+    /* transform: scaleX(2); */
+
+    /* keval height badhana ya ghatana ho  */
+    /* transform: scaleY(2); */
+
+}
